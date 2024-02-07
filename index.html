@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="khushi.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#servicse">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm <span>Khushi Mittal</span><br>From Haridwar</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------------about------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="khushi_photo.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga enim numquam Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Velit incidunt consequuntur quis. At, repudiandae
+                        vero suscipit aperiam velit recusandae quos. maxime iste dignissimos iure. Laboriosam molestias
+                        laudantium quae earum, tempore eius architecto nam non reiciendis reprehenderit error ea? Nihil
+                        lore20
+                        .</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Front-End Developer</span><br>Designing Website interfaces </li>
+                            <li><span>Python</span><br>Depth knowlegde of python</li>
+                            <li><span>Data Structure</span><br>Depth knowledeg in Data structure</li>
+                            <li><span>c++</span></li>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>JAVASCRIPT</span></li>
+                            <li><span>JAVA</span></li>
+                            <li><span>OOPS</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024-Current</span><br>Sharp my skills in Front End by making websites , projects
+                            </li>
+                            <li><span>2023 June-Aug</span><br>Python Training at Intershala</li>
+                            <li><span>2023 Aug-Dec</span><br>Depth knowledeg in Data structure</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022</span><br>Schooling from Laksar Haridwar </li>
+                            <li><span>2024-Current</span><br>In college (Women Institute of Technology)</li>
+                            <li><span>2023</span><br>2 months training from Intershala</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------Services---------------- -->
+
+    <div id="servicse">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Front-End </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur Modi, fuga, necessitatibus amet voluptatibus aspernatur
+                        placeat incidunt ducimus sequi illum qui porro eius voluptatum nisi quibusdam.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <h2>Python</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur Modi, fuga, necessitatibus amet voluptatibus aspernatur
+                        placeat incidunt ducimus sequi illum qui porro eius voluptatum nisi quibusdam.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <h2>Data structure</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur Modi, fuga, necessitatibus amet voluptatibus aspernatur
+                        placeat incidunt ducimus sequi illum qui porro eius voluptatum nisi quibusdam.</p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- -------portfolio------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" a>
+                    <div class="layer">
+                        <h2>Websites</h2>
+                        <p> Amazing Websites  that will help you to your work ,check on the Google</p>
+                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" a>
+                    <div class="layer">
+                    <h2> Traveling Websites</h2>
+                        <p> Amazing Websites  that will help you to your work ,check on the Google</p>
+                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" a>
+                    <div class="layer">
+                    <h2>projects from Python</h2>
+                        <p> Amazing Websites  that will help you to your work ,check on the Google</p>
+                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+            </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+    <!-- --------------contact------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <!-- <p><i class="fa-solid fa-gears"></i></p> -->
+                    <p>Khushimittal286@gmail.com</p>
+                    <p>9927549815</p>
+                    <!-- <div class="social-iocns">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                    </div> -->
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Enter name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="messahe"  rows="6" placeholder="your magssage"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright  &copy; khushi. All rights reserved</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- javascript -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu =document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right= "0";
+            
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+
+        }
+    </script>
+</body>
+
+</html>
